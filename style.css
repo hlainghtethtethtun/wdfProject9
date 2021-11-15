@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height: 100vh; */
+    background-color: #f3f3f3;
+    background-image: url('images/bg-top.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-size:contain; */
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    /* overflow: hidden; */
+    /* background-image: url('images/bg-bottom.svg');
+    background-repeat: no-repeat; */
+    /* background-position: bottom left; */
+}
+
+.price{
+    text-align: center;
+    color: #818181;
+    margin-top: 50px;
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.choice .annu{
+    margin-right: 30px;
+}
+
+/* ======================================== */
+.annually {
+    /* margin-right: 20px; */
+    color: #5151f7;
+    position: absolute;
+    bottom: -7px;
+    left: 680px;
+
+    /* display: none; */
+}
+.hiddenOff{
+    opacity: 0;
+}
+
+.monthly {
+    color: #5151f7;
+    position: absolute;
+    bottom: -7px;
+    left: 680px;
+
+    /* display: none; */
+}
+
+.hiddenOn{
+    opacity: 0;
+}
+/* ============================================== */
+.choice p{
+    margin-left: 30px;
+    color: #9b9b9b;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.first{
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: -2px 2px 2px rgb(226, 226, 226);
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    /* position: absolute; */
+    z-index: 4;
+}
+
+.box div:last-child{
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgb(226, 226, 226);
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+}
+
+.second{
+    padding: 50px 40px;
+    background-color: #7373fc;
+    box-shadow: -2px 2px 2px rgb(226, 226, 226);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.first .top{
+    font-weight: bold;
+    font-size: 15px;
+    color: #525252;
+    margin-bottom: 20px;
+}
+
+.second .top{
+    font-weight: bold;
+    font-size: 15px;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+/* ================================= */
+.first .dollor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px 10px 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.first .dollor p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 5px;
+    color: #353535;
+}
+
+.first .dollor h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #353535;
+}
+
+.second .dollor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px 10px 30px;
+    border-bottom: 1px solid #c9c3c3;
+}
+
+.second .dollor p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 5px;
+    color: #fcfcfc;
+}
+
+.second .dollor h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fcfcfc;
+}
+/* =================================== */
+
+.first .storage , .first .user , .first .send{
+    font-size: 14px;
+    font-weight: bold;
+    color: #6d6d6d;
+    padding: 12px 30px 12px 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.second .storage , .second .user , .second .send{
+    font-size: 14px;
+    font-weight: bold;
+    color: #f8f8f8;
+    padding: 12px 30px 12px 30px;
+    border-bottom: 1px solid #c9c3c3;
+}
+
+.first button{
+    width: 100%;
+    background: rgb(115, 115, 252);
+    color: #fff;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.first button:hover{
+    padding: 9px 0;
+    background: none;
+    border: 1px solid rgb(115, 115, 252);
+    color: rgb(115, 115, 252);
+}
+
+.second button{
+    width: 100%;
+    color: rgb(115, 115, 252);
+    /* background-color: #fff; */
+    background-color: #fcfcfc;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.second button:hover{
+    padding: 9px 0;
+    background: none;
+    border: 1px solid #fcfcfc;
+    color:  #fcfcfc;
+}
+
+h3{
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #5151f7;
+}
